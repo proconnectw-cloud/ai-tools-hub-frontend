@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools Hub - Discover the Best AI Tools</title>
+    <meta name="description" content="Discover the best AI tools for chat, image generation, video, coding, writing, productivity, and more.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="logo">
+            AI<span>Tools</span>Hub
+        </div>
+
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#tools">AI Tools</a>
+            <a href="#categories">Categories</a>
+            <a href="#submit">Submit Tool</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Discover the Best AI Tools</h1>
+        <p>
+            Explore powerful AI tools for chat, image generation, video creation,
+            coding, writing, productivity, marketing, and more.
+        </p>
+
+        <input
+            type="text"
+            id="search"
+            placeholder="Search AI tools..."
+        >
+    </section>
+
+    <section id="categories" class="categories">
+        <h2>Browse by Category</h2>
+
+        <div class="category-buttons">
+            <button class="category-btn active" data-category="all">All</button>
+            <button class="category-btn" data-category="AI Chat">AI Chat</button>
+            <button class="category-btn" data-category="AI Image">AI Image</button>
+            <button class="category-btn" data-category="AI Video">AI Video</button>
+            <button class="category-btn" data-category="AI Voice">AI Voice</button>
+            <button class="category-btn" data-category="AI Coding">AI Coding</button>
+        </div>
+    </section>
+
+    <section id="tools" class="tools-section">
+        <h2>Popular AI Tools</h2>
+        <div id="tools" class="tools-grid"></div>
+    </section>
+
+    <section id="submit" class="submit-section">
+        <h2>Submit an AI Tool</h2>
+
+        <form id="tool-form" class="tool-form">
+            <input type="text" id="tool-name" placeholder="Tool name" required>
+            <input type="text" id="tool-category" placeholder="Category" required>
+            <input type="text" id="tool-description" placeholder="Description" required>
+            <input type="url" id="tool-link" placeholder="Website link" required>
+
+            <button type="submit">Submit Tool</button>
+        </form>
+    </section>
+
+    <footer class="site-footer">
+        <p>© 2026 AI Tools Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
